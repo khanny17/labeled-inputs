@@ -1,4 +1,4 @@
-angular.module('LabeledText', [])
+angular.module('labeled-text', [])
 
 .directive('labeledText', [function(){
     return {
