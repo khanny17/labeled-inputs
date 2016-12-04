@@ -14,7 +14,7 @@ angular.module('labeled-text', [])
         },
         template: 
         '<div class="form-group">' +
-            '<label for="labeledInput{{name}}" ng-model="name"></label>' +
+            '<label for="labeledInput{{name}}">{{name}}</label>' +
             '<input type="text"  class="form-control" id="labeledInput{{name}}"' +
                    'placeholder="{{name}}"' +
                    'ng-model="model" />' +
