@@ -1,6 +1,6 @@
 angular.module('labeled-inputs', [
     'labeled-text',
-    'labeled-pass
+    'labeled-pass'
 ]);
 
 angular.module('labeled-pass', [])
